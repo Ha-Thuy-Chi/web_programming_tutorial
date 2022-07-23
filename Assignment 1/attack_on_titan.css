@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Concert+One&family=Kaisei+Opti&family=Nunito:wght@300&display=swap');
+@media only screen and (min-width: 960px) {
+    .navbar li {
+        float: left;
+        color: rgb(134, 66, 197);
+        font-weight: 300;
+        font-size: 2vw;
+        text-align: center;
+        list-style-type: none;
+        margin: 1.5vw;
+    }
+    .navbar {
+        margin: 0.5vw;
+    }
+    nav {
+        font-family: "Nunito", sans-serif;
+        background-color: rgb(131, 172, 138);
+        float: right;
+        text-decoration: none;
+        padding: 0;
+        clear: both;
+    }
+    .main {
+        display: flex;
+    }
+    .pics {
+        display: flex;
+        justify-content: space-between;
+    }
+    .bigpic {
+        width: 30vw;
+        height: 50vw;
+        margin: 2vw 2vw 0 2vw;
+    }
+    .smallpics {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .smallpics li {
+        width: 30vw;
+        height: 15vw;
+    }
+    .priceandcart {
+        padding: 20vw 0;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .navbar {
+        margin: 0 2vw;
+        padding: 0;
+    }
+    .navbar li {
+        display: block;
+        color: rgb(134, 66, 197);
+        font-weight: 300;
+        font-size: 2vw;
+        text-align: right;
+        list-style-type: none;
+    }
+    nav {
+        font-family: "Nunito", sans-serif;
+        background-color: rgb(131, 172, 138);
+        float: right;
+        text-decoration: none;
+        padding: 0;
+        clear: both;
+    }
+    .bigpic {
+        width: 70vw;
+        height: 60vw;
+        margin: 5vw;
+    }
+    .smallpics {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .smallpics li {
+        justify-content: space-between;
+    }
+    .button {
+        background-color: rgb(185, 49, 49);
+        color: aliceblue;
+        font-size: 3vw;
+        text-align: center;
+        display: inline-block;
+        font-weight: 400;
+    }
+    .priceandcart{
+        padding: 0 28vw;
+    }
+}
+
+header {
+    background-color: rgb(131, 172, 138);
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width: 7.5vw;
+    height: 7.5vw;
+}
+.breadcrumb {
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 2vw;
+}
+.breadcrumb_items {
+    display: inline-block;
+}
+.breadcrumb_items:not(:last-of-type)::after {
+    content: '/';
+    margin: 0 0.5vw;
+}
+.bookprice {
+    font-family: "Baloo 2", sans-serif;
+    font-size: 3vw;
+    font-weight: 600;
+}
+p {
+    font-family: "Baloo 2", sans-serif;
+    color: rgb(60, 4, 4);
+    font-size: 3vw;
+    font-weight: 400;
+}
+.button {
+    font-family: "Baloo 2", sans-serif;
+    background-color: rgb(185, 49, 49);
+    color: aliceblue;
+    font-size: 3vw;
+    text-align: center;
+    display: inline-block;
+    font-weight: 400;
+}
+
+
+body {
+    color: rgb(100, 49, 148);
+    background-color: rgb(92, 136, 100);
+}
+main {
+    background-color: rgb(171, 214, 179);
+    margin: 5vw;
+    padding: 2vw;
+}
+h1 {
+    font-family: "Kaisei Opti", sans-serif;
+    color: rgb(69, 0, 0);
+    text-align: center;
+    font-size: 4vw;
+    margin: 2vw;
+}
+.category {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+.category li {
+    font-family: "Baloo 2", sans-serif;
+    color:  rgb(134, 66, 197);
+    width: 30%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5vw;
+    white-space: nowrap;
+}
+.footer {
+    display: flex;
+    background-color: rgb(171, 214, 179);
+    font-family: "Nunito", sans-serif;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 2vw;
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+.footer li {
+    margin: 2vw;
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(141, 70, 207) ;
+    text-decoration: underline;
+}

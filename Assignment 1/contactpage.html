@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Ha Thuy Chi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactpage.css" type="text/css">
+  </head>
+  <body>
+    <header>
+      <a href="Homepage.html"><img class="logo" src="https://cdn-icons.flaticon.com/png/512/3585/premium/3585972.png?token=exp=1658573023~hmac=dfb3cd69e8c94ce653b91381aaec207c" alt="This is my logo!"></a>
+      <nav>
+          <ul class="navbar">
+              <li><a href="Homepage.html">Home</a></li>
+              <li><a href="Fantasy_category.html">Fantasy</a></li>
+              <li><a href="Fantasy_category.html">Romance</a></li>
+          </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Contact Us</h1>
+      <form method="get">
+          <label for="Contact purpose">Contact purpose:</label>
+          <select name="contact-purpose">
+              <option value="" selected>Please select</option>
+              <option value="sell-book">I want to sell books</option>
+              <option value="buy-book">I want to buy books</option>
+          </select><br>
+          <label for="name">Your name:</label>
+          <input class="input" type="text" name="name" id="name"><br>
+          <label for="email">Your email:</label>
+          <input class="input" type="email" name="email" id="email"><br>
+          <label for="phone">Your phone:</label>
+          <input type="text" name="phone" id="phone"><br>
+          <label for="contact-you">How can we contact you:</label>
+          <input type="checkbox" name="seeks[]" value="email">By email
+          <input type="checkbox" name="seeks[]" value="phone">By phone<br>
+          <label for="newsletter">Do you want to receive our weekly newsletter:</label>
+          <input type="radio" name="newsletter" value="yes" checked>Yes
+          <input type="radio" name="newsletter" value="no">No<br>
+          <textarea name="note" id="note" cols="50" rows="5">
+            Note: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae corrupti odit culpa tempora architecto ipsa? Est, eaque dolore numquam praesentium commodi iusto facilis velit harum iure voluptatibus sit odit voluptatum, inventore, officiis ipsam nulla. Exercitationem, sunt quam. Ipsam maxime neque adipisci fugit consequuntur impedit accusantium nisi ad aspernatur aut obcaecati autem maiores ullam placeat enim animi optio cupiditate voluptatibus aliquid corporis, hic esse at? Provident perspiciatis corporis autem et officiis vitae minus alias delectus dolorum ipsam quis praesentium ut excepturi tempore, aperiam, facilis dolor dignissimos harum consequuntur, libero sapiente magnam doloribus. 
+            Amet explicabo pariatur laboriosam numquam, assumenda et nobis vel!</textarea><br>
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+      </form>
+    </main>
+    <footer>
+          <ul class="footer">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Copyrights</a></li>
+              <li><a href="contactpage.html">Contact Us</a></li>
+          </ul>
+    </footer>
+  </body>
+</html>
